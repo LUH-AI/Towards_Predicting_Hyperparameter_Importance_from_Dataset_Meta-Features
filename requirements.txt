@@ -1,0 +1,17 @@
+numpy==1.26.4
+pandas
+scipy==1.12.0
+scikit-learn==1.7.2
+matplotlib==3.9.0
+pyarrow==19.0.1
+fastparquet==2024.5.0
+joblib
+torch==2.11.0
+pytorch-lightning==2.6.1
+pytabkit==1.7.3
+ConfigSpace==1.2.0
+smac==2.4.0
+deepcave==1.4.1
+pymfe==0.4.4
+PyYAML==6.0.3
+openml>=0.14

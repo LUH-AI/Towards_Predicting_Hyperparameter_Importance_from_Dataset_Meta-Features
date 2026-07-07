@@ -1,0 +1,11 @@
+SEEDS = [45, 46, 47, 48, 49]
+
+N_TRIALS = 60
+N_OUTER_SPLITS = 5
+N_INNER_SPLITS = 5
+
+K_MIN = 60
+K_MAX = 150
+
+OPTIMIZE = "mae"
+HPI_PREFIX = "hpi_"
