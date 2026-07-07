@@ -1,6 +1,6 @@
 # Predicting Hyperparameter Importance from Dataset Meta-Features
 
-This repository contains the code for the paper **"Predicting Hyperparameter Importance from Dataset Meta-Features"** (submitted to AutoML 2026).
+This repository contains the code for the paper **"Predicting Hyperparameter Importance from Dataset Meta-Features"** (published at the AutoML Conference 2026).
 
 We study whether dataset meta-features can predict which hyperparameters matter for a given dataset *before* running any HPO trials, using fANOVA-based importance estimates for [RealMLP](https://github.com/dholzmueller/pytabkit) on the [TabArena](https://github.com/autogluon/tabarena) and UCI benchmark datasets.
 
@@ -165,6 +165,16 @@ python scripts/10_make_all_figures
 ### HPO Validation
 
 Tuning only the predicted Top-4 hyperparameters achieves lower or equal regret compared to full-space search on all three held-out datasets within the same 50-trial budget.
+
+### Citation
+```
+@inproceedings{ksouri2026towards,
+  title     = {Towards Predicting Hyperparameter Importance from Dataset Meta-Features},
+  author    = {Ksouri, Maha and Theodorakopoulos, Daphne and Lindauer, Marius},
+  booktitle = {Proceedings of the International Conference on Automated Machine Learning (AutoML)},
+  year      = {2026},
+}
+```
 
 ### License
 
